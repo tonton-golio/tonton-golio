@@ -64,36 +64,16 @@ and generative art that's really just math caught in the act.
   <img src="./cards/motion-synthesis.svg" width="100%" />
 </a>
 
-> Teaching an AI **to move** with latent diffusion + a VAE — basically running entropy backwards until something dances. A stalled-but-loved experiment.
+> My **master's project** — text-to-motion by reverse diffusion in a learned latent space. A transformer VAE squeezes 3D human motion into a compact code, then a CLIP-conditioned diffusion model denoises in that space until a short prompt becomes someone dancing.
 
 </td>
 <td width="50%" valign="top">
 
-<a href="https://github.com/tonton-golio/inertial_navigation_transformer">
-  <img src="./cards/inertial_navigation_transformer.svg" width="100%" />
+<a href="https://github.com/tonton-golio/mbl-intrinsicDim">
+  <img src="./cards/mbl-intrinsicDim.svg" width="100%" />
 </a>
 
-> Figuring out **where you are** from raw IMU sensors when GPS won't help — pitting Transformers, LSTMs & GRUs against classical strapdown navigation. Attention, it turns out, also has opinions about dead-reckoning.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<a href="https://github.com/tonton-golio/meeting-recorder">
-  <img src="./cards/meeting-recorder.svg" width="100%" />
-</a>
-
-> A native **macOS menu-bar app** that records meetings and transcribes them fully on-device (WhisperKit) — it even tells speakers apart. Built because I wanted meeting notes without shipping audio to the cloud.
-
-</td>
-<td width="50%" valign="top">
-
-<a href="https://github.com/tonton-golio/MelanomaDelineation">
-  <img src="./cards/MelanomaDelineation.svg" width="100%" />
-</a>
-
-> **Drawing the line on melanoma** — segmenting tumours from photoacoustic imaging (a 1-D CNN per pixel, then an active contour to smooth the edge) and measuring their thickness. Biomedical imaging, quantified.
+> My **bachelor's project** — using *intrinsic dimension* to detect the many-body-localization phase transition. As disorder grows, quantum states collapse onto a lower-dimensional manifold; a neighbour-graph estimator (2NN) plus scaling collapse pins down the critical point.
 
 </td>
 </tr>
