@@ -8,8 +8,8 @@
   <rect x="0.5" y="0.5" width="439" height="129" rx="14" fill="url(#d)"/>
   <!-- top-right motif (orbit rings, or a status pill for unfinished repos) -->
   <g font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
-    <rect x="270" y="89" width="92" height="22" rx="11" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.22"/>
-    <text x="316" y="104" font-size="10.5" font-weight="600" letter-spacing="1.2" fill="#9a9a9a" text-anchor="middle">EXPERIMENT</text>
+    <rect x="227" y="89" width="135" height="22" rx="11" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.22"/>
+    <text x="294.5" y="104" font-size="10.5" font-weight="600" letter-spacing="1.2" fill="#9a9a9a" text-anchor="middle">MASTER'S PROJECT</text>
   </g>
   <g font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
     <text x="26" y="50" font-size="24" font-weight="700" letter-spacing="0.3" fill="#fafafa">motion-synthesis</text>
