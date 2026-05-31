@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 130" width="440" height="130" role="img" aria-label="inertial_navigation_transformer">
+  <defs>
+    <pattern id="d" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.4" cy="1.4" r="1.4" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+  </defs>
+  <rect x="0.5" y="0.5" width="439" height="129" rx="14" fill="#0d0d0d" stroke="#ffffff" stroke-opacity="0.08"/>
+  <rect x="0.5" y="0.5" width="439" height="129" rx="14" fill="url(#d)"/>
+  <!-- faint orbit motif, top-right -->
+  <g transform="translate(410 30)" fill="none" stroke="#ffffff">
+    <circle r="34" stroke-opacity="0.07"/>
+    <circle r="58" stroke-opacity="0.05"/>
+    <circle cx="34" cy="0" r="2" fill="#ffffff" fill-opacity="0.5" stroke="none"/>
+  </g>
+  <g font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text x="26" y="50" font-size="19" font-weight="700" letter-spacing="0.3" fill="#fafafa">inertial_navigation_transformer</text>
+    <line x1="27" y1="68" x2="120" y2="68" stroke="#ffffff" stroke-opacity="0.18"/>
+    <!-- language -->
+    <circle cx="32" cy="100" r="5.5" fill="#da5b0b"/>
+    <text x="46" y="105" font-size="15" font-weight="400" fill="#b8b8b8">Jupyter Notebook</text>
+    <!-- stars -->
+    <text x="414" y="105" font-size="15" font-weight="500" fill="#9a9a9a" text-anchor="end">&#9733; 6</text>
+  </g>
+</svg>
