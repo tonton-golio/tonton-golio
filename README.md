@@ -1,0 +1,127 @@
+<div align="center">
+
+<img src="./banner.svg" alt="Anton — a physicist who learned to code" width="100%" />
+
+<br/>
+
+I started out poking at phase transitions and gravitational constants, decided the universe was complicated enough,<br/>
+and now I mostly teach machines to be useful: AI agents, motion-generating diffusion models,<br/>
+and generative art that's really just math caught in the act.
+
+<br/>
+
+[![Website](https://img.shields.io/badge/anton.gg-111111?style=flat-square&logo=safari&logoColor=white)](https://anton.gg)
+[![KoalaBrain](https://img.shields.io/badge/koalabrain.org-111111?style=flat-square&logo=googlechrome&logoColor=white)](https://koalabrain.org)
+[![LinkedIn](https://img.shields.io/badge/golles-111111?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/golles)
+![Copenhagen](https://img.shields.io/badge/📍_Copenhagen-111111?style=flat-square)
+
+</div>
+
+---
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/-Python-111111?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-111111?style=flat-square&logo=typescript&logoColor=white)
+![PyTorch](https://img.shields.io/badge/-PyTorch-111111?style=flat-square&logo=pytorch&logoColor=white)
+![Next.js](https://img.shields.io/badge/-Next.js-111111?style=flat-square&logo=nextdotjs&logoColor=white)
+![Swift](https://img.shields.io/badge/-Swift-111111?style=flat-square&logo=swift&logoColor=white)
+![Jupyter](https://img.shields.io/badge/-Jupyter-111111?style=flat-square&logo=jupyter&logoColor=white)
+
+</div>
+
+---
+
+### ◆ Stuff I've made
+
+*A loosely-sorted museum of curiosity. Some are serious. Some started as "I wonder if...".*
+
+<table border="0">
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://github.com/tonton-golio/robin">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=tonton-golio&repo=robin&theme=graywhite&hide_border=true&bg_color=00000000&title_color=111111&icon_color=111111" />
+</a>
+
+> An **agentic second brain** — local-first, file-based knowledge that AI coding agents can actually read and reason over. The thing I nerd out about most.
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://github.com/tonton-golio/computational_physics">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=tonton-golio&repo=computational_physics&theme=graywhite&hide_border=true&bg_color=00000000&title_color=111111&icon_color=111111" />
+</a>
+
+> Where **web tech meets physics meets AI**. My most-starred experiment — turns out other people are curious too.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://github.com/tonton-golio/motion-synthesis">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=tonton-golio&repo=motion-synthesis&theme=graywhite&hide_border=true&bg_color=00000000&title_color=111111&icon_color=111111" />
+</a>
+
+> Teaching an AI **to move** — a full reverse-diffusion pipeline. Basically running entropy backwards until something dances.
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://github.com/tonton-golio/inertial_navigation_transformer">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=tonton-golio&repo=inertial_navigation_transformer&theme=graywhite&hide_border=true&bg_color=00000000&title_color=111111&icon_color=111111" />
+</a>
+
+> Transformers for **knowing where you are** when GPS won't help. Attention, it turns out, is also all you need for navigation.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://github.com/tonton-golio/meeting-recorder">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=tonton-golio&repo=meeting-recorder&theme=graywhite&hide_border=true&bg_color=00000000&title_color=111111&icon_color=111111" />
+</a>
+
+> A tiny **macOS menu-bar app** that records meetings and transcribes them locally. Built it because I wanted it to exist.
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://github.com/tonton-golio/interviewer_voice2voice">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=tonton-golio&repo=interviewer_voice2voice&theme=graywhite&hide_border=true&bg_color=00000000&title_color=111111&icon_color=111111" />
+</a>
+
+> A real-time, **voice-to-voice AI interviewer**. It listens, asks, follows up. Mildly unsettling, genuinely useful.
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+<sub>...and a long tail of physics notebooks, melanoma imaging, sea-level models & crossword solvers → <a href="https://github.com/tonton-golio?tab=repositories">all repos</a></sub>
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/?username=tonton-golio&show_icons=true&theme=graywhite&hide_border=true&bg_color=00000000&title_color=111111&icon_color=111111&text_color=555555&hide_title=true" height="150" />
+
+<br/><br/>
+
+<!-- contribution snake — generated by .github/workflows/snake.yml, served from the output branch -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tonton-golio/tonton-golio/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tonton-golio/tonton-golio/output/github-snake.svg" />
+  <img alt="snake eating my contribution graph" src="https://raw.githubusercontent.com/tonton-golio/tonton-golio/output/github-snake.svg" width="100%" />
+</picture>
+
+<br/>
+
+<sub><code>physicist → coder · still mostly just curious</code></sub>
+
+</div>

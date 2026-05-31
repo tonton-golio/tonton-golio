@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Anton — physicist who learned to code">
+  <defs>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.6" cy="1.6" r="1.6" fill="#ffffff" opacity="0.045"/>
+    </pattern>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0d0d0d" stop-opacity="1"/>
+      <stop offset="55%" stop-color="#0d0d0d" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- canvas -->
+  <rect x="0" y="0" width="1200" height="300" rx="18" fill="#0d0d0d"/>
+  <rect x="0" y="0" width="1200" height="300" rx="18" fill="url(#dots)"/>
+
+  <!-- orbit system (right) -->
+  <g transform="translate(965 150)" fill="none" stroke="#ffffff">
+    <circle r="62"  stroke-opacity="0.10"/>
+    <circle r="108" stroke-opacity="0.08"/>
+    <circle r="158" stroke-opacity="0.06"/>
+    <circle r="210" stroke-opacity="0.04"/>
+    <!-- central body -->
+    <circle r="4.5" fill="#ffffff" stroke="none"/>
+    <!-- orbiting nodes -->
+    <g>
+      <circle cx="62" cy="0" r="32" fill="url(#glow)" stroke="none"/>
+      <circle cx="62" cy="0" r="3.5" fill="#ffffff" stroke="none"/>
+    </g>
+    <circle cx="-93" cy="54" r="2.6" fill="#ffffff" fill-opacity="0.85" stroke="none"/>
+    <circle cx="40" cy="-152" r="2.2" fill="#ffffff" fill-opacity="0.7" stroke="none"/>
+  </g>
+
+  <!-- left fade so wordmark stays crisp -->
+  <rect x="0" y="0" width="640" height="300" fill="url(#fade)"/>
+
+  <!-- wordmark -->
+  <g font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text x="80" y="150" font-size="76" font-weight="700" letter-spacing="2" fill="#fafafa">Anton</text>
+    <line x1="84" y1="178" x2="250" y2="178" stroke="#ffffff" stroke-opacity="0.25"/>
+    <text x="84" y="210" font-size="21" font-weight="400" letter-spacing="0.5" fill="#9a9a9a">a physicist who learned to code</text>
+    <text x="84" y="238" font-size="14" font-weight="400" letter-spacing="3" fill="#5e5e5e">COPENHAGEN · AI · PHYSICS · GENERATIVE ART</text>
+  </g>
+</svg>
