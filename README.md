@@ -44,7 +44,7 @@ and generative art that's really just math caught in the act.
   <img src="./cards/robin.svg" width="100%" />
 </a>
 
-> An **agentic second brain** — local-first, file-based knowledge that AI coding agents can actually read and reason over. The thing I nerd out about most.
+> An **agentic second brain** — a fork-it starter kit (file format + MCP server + web UI + agent skills) that gives Claude Code & Cursor durable, local-first memory they can read and reason over. The thing I nerd out about most.
 
 </td>
 <td width="50%" valign="top">
@@ -53,7 +53,7 @@ and generative art that's really just math caught in the act.
   <img src="./cards/computational_physics.svg" width="100%" />
 </a>
 
-> Where **web tech meets physics meets AI**. My most-starred experiment — turns out other people are curious too.
+> **Computational physics you can touch** — 190+ interactive simulations across 10 topics, where every equation runs and every model is yours to break. My most-starred experiment; turns out others are curious too.
 
 </td>
 </tr>
@@ -64,7 +64,7 @@ and generative art that's really just math caught in the act.
   <img src="./cards/motion-synthesis.svg" width="100%" />
 </a>
 
-> Teaching an AI **to move** — a full reverse-diffusion pipeline. Basically running entropy backwards until something dances.
+> Teaching an AI **to move** with latent diffusion + a VAE — basically running entropy backwards until something dances. A stalled-but-loved experiment.
 
 </td>
 <td width="50%" valign="top">
@@ -73,7 +73,7 @@ and generative art that's really just math caught in the act.
   <img src="./cards/inertial_navigation_transformer.svg" width="100%" />
 </a>
 
-> Transformers for **knowing where you are** when GPS won't help. Attention, it turns out, is also all you need for navigation.
+> Figuring out **where you are** from raw IMU sensors when GPS won't help — pitting Transformers, LSTMs & GRUs against classical strapdown navigation. Attention, it turns out, also has opinions about dead-reckoning.
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ and generative art that's really just math caught in the act.
   <img src="./cards/meeting-recorder.svg" width="100%" />
 </a>
 
-> A tiny **macOS menu-bar app** that records meetings and transcribes them locally. Built it because I wanted it to exist.
+> A native **macOS menu-bar app** that records meetings and transcribes them fully on-device (WhisperKit) — it even tells speakers apart. Built because I wanted meeting notes without shipping audio to the cloud.
 
 </td>
 <td width="50%" valign="top">
@@ -93,7 +93,7 @@ and generative art that's really just math caught in the act.
   <img src="./cards/MelanomaDelineation.svg" width="100%" />
 </a>
 
-> **Drawing the line on melanoma** — data analysis + AI for biomedical imaging, learning where a tumour ends and skin begins.
+> **Drawing the line on melanoma** — segmenting tumours from photoacoustic imaging (a 1-D CNN per pixel, then an active contour to smooth the edge) and measuring their thickness. Biomedical imaging, quantified.
 
 </td>
 </tr>
