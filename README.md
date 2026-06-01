@@ -13,7 +13,7 @@ and generative art that's really just math caught in the act.
 [![Website](https://img.shields.io/badge/anton.gg-111111?style=flat-square&logo=safari&logoColor=white)](https://anton.gg)
 [![KoalaBrain](https://img.shields.io/badge/koalabrain.org-111111?style=flat-square&logo=googlechrome&logoColor=white)](https://koalabrain.org)
 [![LinkedIn](https://img.shields.io/badge/golles-111111?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/golles)
-![Copenhagen](https://img.shields.io/badge/📍_Copenhagen-111111?style=flat-square)
+![Copenhagen](https://img.shields.io/badge/%F0%9F%93%8D_Copenhagen-111111?style=flat-square)
 
 </div>
 
@@ -44,7 +44,7 @@ and generative art that's really just math caught in the act.
   <img src="./cards/robin.svg" width="100%" />
 </a>
 
-> An **agentic second brain** — a fork-it starter kit (file format + MCP server + web UI + agent skills) that gives Claude Code & Cursor durable, local-first memory they can read and reason over. The thing I nerd out about most.
+> An **agentic second brain** — a fork-it starter kit (file format + MCP server + web UI + agent skills) that gives Claude Code & Cursor durable, local-first memory they can read and reason over.
 
 </td>
 <td width="50%" valign="top">
@@ -53,7 +53,7 @@ and generative art that's really just math caught in the act.
   <img src="./cards/computational_physics.svg" width="100%" />
 </a>
 
-> **Computational physics you can touch** — 190+ interactive simulations across 10 topics, where every equation runs and every model is yours to break. My most-starred experiment; turns out others are curious too.
+> **Computational physics you can touch** — 190+ interactive simulations across 10 topics. Examples: Ising model, Mandelbrot explorer, Abelian sandpile, Lorenz attractor, percolation, Vicsek flocking.
 
 </td>
 </tr>
@@ -64,7 +64,7 @@ and generative art that's really just math caught in the act.
   <img src="./cards/motion-synthesis.svg" width="100%" />
 </a>
 
-> My **master's project** — text-to-motion by reverse diffusion in a learned latent space. A transformer VAE squeezes 3D human motion into a compact code, then a CLIP-conditioned diffusion model denoises in that space until a short prompt becomes someone dancing.
+> **Master's project** — text-to-3D-motion via latent diffusion. A transformer VAE compresses motion clips to a compact latent; a CLIP-conditioned diffusion model generates sequences from text prompts.
 
 </td>
 <td width="50%" valign="top">
@@ -73,7 +73,7 @@ and generative art that's really just math caught in the act.
   <img src="./cards/mbl-intrinsicDim.svg" width="100%" />
 </a>
 
-> My **bachelor's project** — using *intrinsic dimension* to detect the many-body-localization phase transition. As disorder grows, quantum states collapse onto a lower-dimensional manifold; a neighbour-graph estimator (2NN) plus scaling collapse pins down the critical point.
+> **Bachelor's project** — using *intrinsic dimension* to detect the many-body-localization phase transition. As disorder grows, quantum states collapse onto a lower-dimensional manifold; a neighbour-graph estimator (2NN) plus scaling collapse pins down the critical point.
 
 </td>
 </tr>
