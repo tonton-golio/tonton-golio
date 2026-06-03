@@ -8,8 +8,8 @@
   <rect x="0.5" y="0.5" width="439" height="129" rx="14" fill="url(#d)"/>
   <!-- top-right motif (orbit rings, or a status pill for unfinished repos) -->
   <g font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
-    <rect x="212" y="89" width="150" height="22" rx="11" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.22"/>
-    <text x="287" y="104" font-size="10.5" font-weight="600" letter-spacing="1.2" fill="#9a9a9a" text-anchor="middle">BACHELOR'S PROJECT</text>
+    <rect x="234" y="89" width="128" height="22" rx="11" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.22"/>
+    <text x="298" y="104" font-size="10.5" font-weight="600" letter-spacing="1.2" fill="#9a9a9a" text-anchor="middle">BACHELOR · 2021</text>
   </g>
   <g font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
     <text x="26" y="50" font-size="24" font-weight="700" letter-spacing="0.3" fill="#fafafa">mbl-intrinsicDim</text>
@@ -18,6 +18,6 @@
     <circle cx="32" cy="100" r="5.5" fill="#da5b0b"/>
     <text x="46" y="105" font-size="15" font-weight="400" fill="#b8b8b8">Jupyter Notebook</text>
     <!-- stars -->
-    <text x="414" y="105" font-size="15" font-weight="500" fill="#9a9a9a" text-anchor="end">&#9733; 1</text>
+    <text x="414" y="105" font-size="15" font-weight="500" fill="#9a9a9a" text-anchor="end">&#9733; 0</text>
   </g>
 </svg>

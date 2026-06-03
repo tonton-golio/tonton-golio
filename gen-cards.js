@@ -9,16 +9,39 @@ const LANG = {
   'Python': '#3572a5',
 };
 
-// featured repos (verified public, accurate stars/langs).
-// `tag` adds a small status pill (top-right) for unfinished repos; omit for active ones.
+// featured repos shown on the profile. Star counts are fetched live from the
+// GitHub API at generation time (see fetchStars); the `stars` field here is a
+// fallback used only if the API call fails. `lang` likewise falls back when the
+// API has no detected language. `tag` adds a small status pill (top-right) for
+// unfinished repos; omit for active ones.
+const OWNER = process.env.CARDS_OWNER || 'tonton-golio';
 const repos = [
-  { name: 'robin',                           lang: 'TypeScript',      stars: 3 },
-  { name: 'computational_physics',           lang: 'TypeScript',      stars: 9 },
-  { name: 'motion-synthesis',                lang: 'Jupyter Notebook',stars: 2, tag: 'EXPERIMENT' },
-  { name: 'inertial_navigation_transformer', lang: 'Jupyter Notebook',stars: 6, tag: 'COURSEWORK · 2023' },
-  { name: 'meeting-recorder',                lang: 'Swift',           stars: 0 },
-  { name: 'MelanomaDelineation',             lang: 'Python',          stars: 1 },
+  { name: 'robin',                 lang: 'TypeScript',       stars: 6 },
+  { name: 'computational_physics', lang: 'TypeScript',       stars: 8 },
+  { name: 'motion-synthesis',      lang: 'Jupyter Notebook', stars: 1, tag: 'EXPERIMENT' },
+  { name: 'mbl-intrinsicDim',      lang: 'Jupyter Notebook', stars: 0, tag: 'BACHELOR · 2021' },
 ];
+
+// Pull live star counts (and language) from the GitHub API. Uses GITHUB_TOKEN
+// when present (CI) to lift the unauthenticated rate limit. Falls back to the
+// hardcoded values above on any failure so a card is never left blank/broken.
+async function fetchStars(repo) {
+  const headers = { 'Accept': 'application/vnd.github+json', 'User-Agent': 'gen-cards' };
+  if (process.env.GITHUB_TOKEN) headers['Authorization'] = `Bearer ${process.env.GITHUB_TOKEN}`;
+  try {
+    const res = await fetch(`https://api.github.com/repos/${OWNER}/${repo.name}`, { headers });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    return {
+      ...repo,
+      stars: typeof data.stargazers_count === 'number' ? data.stargazers_count : repo.stars,
+      lang: data.language || repo.lang,
+    };
+  } catch (err) {
+    console.warn(`! ${repo.name}: live fetch failed (${err.message}); using fallback stars=${repo.stars}`);
+    return repo;
+  }
+}
 
 const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 
@@ -67,9 +90,14 @@ function card({ name, lang, stars, tag }) {
 `;
 }
 
-const outDir = path.join(__dirname, 'cards');
-fs.mkdirSync(outDir, { recursive: true });
-for (const r of repos) {
-  fs.writeFileSync(path.join(outDir, `${r.name}.svg`), card(r));
-  console.log('wrote cards/' + r.name + '.svg');
+async function main() {
+  const outDir = path.join(__dirname, 'cards');
+  fs.mkdirSync(outDir, { recursive: true });
+  const resolved = await Promise.all(repos.map(fetchStars));
+  for (const r of resolved) {
+    fs.writeFileSync(path.join(outDir, `${r.name}.svg`), card(r));
+    console.log(`wrote cards/${r.name}.svg  (★ ${r.stars}, ${r.lang})`);
+  }
 }
+
+main().catch(err => { console.error(err); process.exit(1); });

@@ -4,9 +4,8 @@
 
 <br/>
 
-I started out poking at phase transitions and gravitational constants, decided the universe was complicated enough,<br/>
-and now I mostly teach machines to be useful: AI agents, motion-generating diffusion models,<br/>
-and generative art that's really just math caught in the act.
+I started out in computational physics — locating phase transitions. I then trained a text-to-motion (humanoid) model and built a website with most of the simulations we saw during my master's.<br/>
+My nature is more that of an engineer than of a scientist. Now I mostly teach machines to be useful.
 
 <br/>
 
